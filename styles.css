@@ -1,0 +1,54 @@
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+
+button {
+    width: 100px;
+    color:white;
+    font-weight: bolder;
+    background-color: #3882f6;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.top {
+    background-color: #1F2937;
+    padding: 20px 13%;
+}
+
+.secondrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bigpic {
+    width: 500px;
+    height: auto;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
