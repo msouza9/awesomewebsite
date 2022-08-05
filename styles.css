@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .logo {
     width: 200px;
     height: auto;
@@ -28,6 +32,11 @@ h1 {
     color: white;
 }
 
+h2 { 
+    text-align: center;
+    padding: 15px;
+}
+
 p {
     color: white;
 }
@@ -37,7 +46,8 @@ p {
     padding: 20px 13%;
 }
 
-.secondrow {
+/*This website is awesome center*/
+.secondrow { 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,6 +55,28 @@ p {
 
 .bigpic {
     width: 500px;
+    height: auto;
+}
+
+/* Some random info container*/
+.thirdrow {  
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.imagerow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image1{
+    text-align: center;
+}
+
+img{
+    width: 75%;
     height: auto;
 }
 
