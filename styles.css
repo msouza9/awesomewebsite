@@ -13,13 +13,20 @@ body{
     padding-bottom: 30px;
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    text-align: center;
+}
+
 .awesome {
     display: flex;
     flex-direction: column;
     width:50%;
 }
 
-.top {
+.top, .footer {
     background-color: #1F2937;
 }
 
@@ -56,6 +63,26 @@ body{
     background-color: #E5E7EB;
 }
 
+.fifthrow{
+    display: flex;
+    justify-content: center;
+}
+
+.fifthbox{
+    display:flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    margin: 75px;
+    border-radius: 15px;
+}
+
+.calltoaction{
+    text-align: left;
+}
+
 .quote{
     color:#1F2937;
     font-size: 36px;
@@ -69,7 +96,7 @@ body{
     color:black;
 }
 
-.top, .thirdrow, .fourthrow {
+.top, .thirdrow, .fourthrow, .fifthrow {
     padding: 20px 13%;
 }
 
@@ -91,12 +118,12 @@ button {
     color:white;
     font-weight: bolder;
     background-color: #3882f6;
+    border-radius: 7px;
 }
 
 h1 {
     font-weight: bold;
     font-size: 48px;
-    color: white;
 }
 
 h2 { 
@@ -104,6 +131,10 @@ h2 {
     padding: 15px;
 }
 
-p {
+h1, h3, p, .footer {
     color: white;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
